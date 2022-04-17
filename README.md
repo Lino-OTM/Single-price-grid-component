@@ -8,7 +8,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 Link:
 
-### Built with:
+### Built with: https://lino-otm.github.io/Single-price-grid-component/
 
 - HTML
 - CSS
