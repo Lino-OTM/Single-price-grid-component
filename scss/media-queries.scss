@@ -1,0 +1,24 @@
+.main-container {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+.information {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.subscription {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-top: 3.5rem;
+}
+
+.description {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-top: 3.5rem;
+
+  &__text {
+    width: 85%;
+    line-height: 2.2rem;
+  }
+}

@@ -1,0 +1,109 @@
+html {
+  font-size: 62.5%;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5eff5;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 90%;
+  max-width: 590px;
+  margin-top: 6rem;
+}
+
+.information {
+  background-color: #ffffff;
+  padding: 2.5rem;
+}
+.information__title {
+  color: #2ab2af;
+  font-weight: 700;
+}
+.information__subtitle {
+  color: #c0df34;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.information__text {
+  font-size: 1.5rem;
+  color: #98a6bd;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+
+.subscription {
+  background-color: #2ab2af;
+  color: #ffffff;
+  padding: 2.5rem;
+}
+.subscription__title {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: 700;
+}
+.subscription__price {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.subscription__term {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.5;
+  color: #e5eff5;
+}
+.subscription__aditional-info {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.subscription__btn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #c0df34;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding: 1em;
+  box-shadow: 0 1rem 1rem rgba(84, 84, 84, 0.198);
+}
+
+.description {
+  background-color: #3bc4c2;
+  color: #ffffff;
+  padding: 2.5rem;
+}
+.description__title {
+  font-size: 2rem;
+  margin-top: 0;
+}
+.description__text {
+  width: 73%;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: #e5eff5;
+  margin-bottom: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */
