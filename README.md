@@ -6,9 +6,9 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ![](/single-price-grid.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Single-price-grid-component/
 
-### Built with: https://lino-otm.github.io/Single-price-grid-component/
+### Built with:
 
 - HTML
 - CSS
